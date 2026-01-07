@@ -1,0 +1,37 @@
+# Git Ignore File
+# Prevent sensitive files from being committed
+
+# Configuration files with credentials
+config/config.php
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Vendor directories (if using Composer in future)
+vendor/
+
+# User uploads (if implementing file uploads)
+uploads/
+
+# Cache
+cache/
+*.cache
